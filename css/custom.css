@@ -1,0 +1,74 @@
+
+@media all and (max-width:768px){
+
+#shop-link {
+  position: absolute;
+  right: 5%;
+  top:0;
+}
+#shop-link li {
+float: right;
+font-size: 25px;
+ width: 50%;
+}
+
+ .navbar-toggle {
+    border: none;
+    margin-left: 5%;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+.nav {
+	background-color: #ff6d00;
+	padding:0 2%;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #ff6d00;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #ff4400;
+}
+.navbar-inverse .navbar-toggle .icon-bar:hover{
+	color: #ff4400;
+}
+#myCarousel {
+  margin-top:-8%;;
+}
+.item {
+  text-align: center;
+  margin-bottom:3%; 
+}
+.item h2 {
+  font-size: 90%;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.item .col-xs-6 p {
+  line-height: 50px;
+  text-align: right;
+  font-size: &0%;
+}
+.item img {
+  width: 100%;
+}
+.item .col-xs-4 {
+  border: 1px solid #333;
+  
+}
+.current-price {
+  font-weight: bold;
+}
+footer {
+  background: #333;
+  color: #ffffff;
+  text-align: center;
+  height: 100px;
+  padding-top: 40px;
+}
+}
