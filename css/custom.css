@@ -1,3 +1,110 @@
+.navbar {
+	background-color: #ff6d00;
+  padding:0 2%;
+  border: 0;
+  border-radius: 0;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #fff;
+	color: #ff6d00;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ff4400;
+	background-color: #ffffff;
+}
+.navbar-form {
+  float: right;
+}
+.logo {
+  width: 40px;
+  margin-top:-10px;
+}
+.carousel-inner {
+  margin-top: -10;
+}
+.carousel-indicators li {
+  border: 1px solid #ff4400;
+  background:#fff;
+}
+.carousel-indicators li.active{
+  background: #ff4400;
+}
+.item {
+  height: 300px;
+  text-align: center;
+}
+.item img {
+  width: 100%;
+  height: 400px;
+}
+.item-list a > div div{
+  float: left;
+  width: 48%;
+  margin: 0;
+  font-size: 20px;
+}
+
+.current-price {
+  font-weight: bold;
+}
+.clearfix {
+  clear: both;
+}
+.advt img {
+  width: 100%;
+}
+
+.items {
+  text-align: center;
+  margin-top: 20px;
+  background: #ccc;
+}
+.deal-header {
+  background: #fff;
+}
+.deal-header h2 {
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 4%;
+}
+.deal-header p {
+  line-height: 50px; 
+}
+.items a p, .items a div {
+  color:#333;
+}
+.item-list {
+  margin: 2px;
+  background: #fff;
+  width: 32%;
+  padding: 1.5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+.items img {
+  width: 100%;
+  height: 200px;;
+}
+
+.advt img {
+  margin-top:1%;
+
+}
+footer {
+  background: #ff6d00;
+  color: #ffffff;
+  text-align: center;
+  height: 100px;
+  padding-top: 40px;
+  margin-top: 1%
+}
 
 @media all and (max-width:768px){
 
@@ -17,24 +124,26 @@ font-size: 25px;
     margin-left: 5%;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-	color: #ffffff;
-}
-.navbar-inverse .navbar-brand {
-  color: #ffffff;
-}
+
 .nav {
 	background-color: #ff6d00;
 	padding:0 2%;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #ff6d00;
+  border-color: #ff6d00;
+  float: none;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   background-color: #ff4400;
 }
 .navbar-inverse .navbar-toggle .icon-bar:hover{
 	color: #ff4400;
+}
+.navbar-form {
+  float: nones;
+}
+.logo {
+  margin-left: -20px
 }
 #myCarousel {
   margin-top:-8%;;
@@ -43,8 +152,8 @@ font-size: 25px;
   text-align: center;
   margin-bottom:3%; 
 }
-.item h2 {
-  font-size: 90%;
+.items h2 {
+  font-size:100%;
   text-align: left;
   text-transform: uppercase;
   font-weight: bold;
@@ -52,23 +161,54 @@ font-size: 25px;
 .item .col-xs-6 p {
   line-height: 50px;
   text-align: right;
-  font-size: &0%;
+  font-size: 80%;
+}
+.pull-right {
+  clear: both;
+}
+
+.item {
+  height: 120px;
+  text-align: center;
 }
 .item img {
   width: 100%;
+  height: 200px;
 }
-.item .col-xs-4 {
-  border: 1px solid #333;
-  
+.items {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ 
 }
-.current-price {
-  font-weight: bold;
+.items-holder {
+  border: 1px solid #ccc;
 }
-footer {
-  background: #333;
-  color: #ffffff;
-  text-align: center;
+.item-list {
+  margin: 0;
+  width: 30%;
+  padding: 1%;
+  display: inline-block;
+  border: 0;
+  border-left: 1px solid #ccc;
+}
+.item-list:first-child {
+  border:0;
+}
+.item-list a > div div {
+  font-size: 12px;
+  margin: -1px;
+}
+.item-list a > div {
+  margin: -1px;;
+}
+.items img {
+  width: 100%;
   height: 100px;
-  padding-top: 40px;
 }
+.items p {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 }
